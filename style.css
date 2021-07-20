@@ -250,8 +250,8 @@ h2{
   list-style: none;
 }
 
-.column{
-  margin: 1rem;
+.column + .column{
+  margin-left: 1rem;
 }
 
 .about-me{
@@ -312,11 +312,18 @@ h2{
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
-    
+  }
+
+  header ul li a{
+    font-size: 1rem;
   }
 
   .socials{
     width: 100%;
+  }
+
+  .call-to-action{
+    font-size: 1rem;
   }
 
   .projects{
