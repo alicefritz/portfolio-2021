@@ -235,7 +235,9 @@ h2{
   align-items: center;
 }
 
-
+.about-wrapper{
+  width: clamp(20ch, 60ch, 100%);
+}
 
 .technologies{
   border: 2px solid aqua;
@@ -243,7 +245,7 @@ h2{
   color: aqua;
   display: flex;
   padding: 1rem;
-  max-width: 60ch;
+  width: 100%;
 }
 
 .technologies ul{
@@ -261,7 +263,7 @@ h2{
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  max-width: 60ch;
+  width: 100%;
   margin-top: 1rem;
 }
 
