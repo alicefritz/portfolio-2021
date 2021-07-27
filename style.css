@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+html{
+  height: 100%;
+}
+
 :root{
   --shadow: 0px 0px 15px 5px rgba(0, 255, 255, 0.3);
 }
@@ -17,7 +21,7 @@ body{
   linear-gradient(90deg, rgba(255, 255, 255, 0.144) 1px, transparent 1px);
   background-size:calc(100vw / 13) calc(100vw / 13), calc(100vw / 13) calc(100vw / 13);
   display: flex;
-  height: 100vh;
+  height: 100%;
   padding: 2rem;
 }
 
@@ -355,5 +359,6 @@ h2{
 
   .about{
     justify-content: flex-start;
+    margin-top: auto;
   }
 }
