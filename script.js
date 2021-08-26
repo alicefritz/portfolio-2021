@@ -1,4 +1,4 @@
 window.onload = () => {
   const hash = location.hash
-  document.querySelector(`${hash}`).scrollIntoView()
+  if(hash) document.querySelector(`${hash}`).scrollIntoView()
 }
